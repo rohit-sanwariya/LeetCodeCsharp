@@ -10,6 +10,7 @@
   <ItemGroup>
     <ProjectReference Include="..\ArrayProblems\ArrayProblems.csproj" />
     <ProjectReference Include="..\Logical\Logical.csproj" />
+    <ProjectReference Include="..\Recursion\Recursion.csproj" />
   </ItemGroup>
 
 </Project>

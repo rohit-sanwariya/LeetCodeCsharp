@@ -1,6 +1,7 @@
 ﻿
-using ArrayProblems;
-using Logical;
+
+using Recursion;
+
 
 namespace LeetCodeCsharp
 {
@@ -8,8 +9,8 @@ namespace LeetCodeCsharp
     {
         static void Main(string[] args)
         {
-            Pallindrome list = new();
-            Console.WriteLine(list.IsPallindrome(1214));
+            IsPowerOfTwo list = new();
+            Console.WriteLine(list.IsPowerOfTwoMethod(1));
         }
     }
 }
