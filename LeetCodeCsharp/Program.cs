@@ -1,5 +1,6 @@
 ﻿
 using ArrayProblems;
+using Logical;
 
 namespace LeetCodeCsharp
 {
@@ -7,7 +8,8 @@ namespace LeetCodeCsharp
     {
         static void Main(string[] args)
         {
-            TargetSumInList list = new TargetSumInList();
+            Pallindrome list = new();
+            Console.WriteLine(list.isPallindrome(1214));
         }
     }
 }
