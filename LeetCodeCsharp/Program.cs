@@ -9,7 +9,7 @@ namespace LeetCodeCsharp
         static void Main(string[] args)
         {
             Pallindrome list = new();
-            Console.WriteLine(list.isPallindrome(1214));
+            Console.WriteLine(list.IsPallindrome(1214));
         }
     }
 }
