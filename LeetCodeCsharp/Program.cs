@@ -1,16 +1,16 @@
 ﻿
 
 using Recursion;
+using StringProblems;
 
 
-namespace LeetCodeCsharp
+namespace LeetCodeCsharp;
+
+internal class Program
 {
-    internal class Program
+    static void Main(string[] args)
     {
-        static void Main(string[] args)
-        {
-            IsPowerOfTwo list = new();
-            Console.WriteLine(list.IsPowerOfTwoMethod(1));
-        }
+        Anagram list = new();
+        Console.WriteLine(list.CheckIFAnagram("racecar", "carrack"));
     }
 }

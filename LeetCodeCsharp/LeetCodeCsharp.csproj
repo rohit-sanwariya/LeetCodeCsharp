@@ -11,6 +11,7 @@
     <ProjectReference Include="..\ArrayProblems\ArrayProblems.csproj" />
     <ProjectReference Include="..\Logical\Logical.csproj" />
     <ProjectReference Include="..\Recursion\Recursion.csproj" />
+    <ProjectReference Include="..\StringProblems\StringProblems.csproj" />
   </ItemGroup>
 
 </Project>
