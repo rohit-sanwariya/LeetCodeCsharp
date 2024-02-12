@@ -9,11 +9,8 @@ namespace LeetCodeCsharp;
 internal class Program
 {
     static void Main(string[] args)
-    {
-        List<int> temp = new List<int>();
-        temp.Insert(0, 1);
-        AddToFormArraySolution list = new();
-        Console.WriteLine(String.Join(",", list.AddToArrayForm([2, 7, 4], 181)));
-        Console.WriteLine(5/2);
+    { 
+        Problem1464MaxProduct list = new();
+        Console.WriteLine(String.Join(",", list.MaxProduct([3, 4, 5, 2])));
     }
 }

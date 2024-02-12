@@ -1,4 +1,5 @@
 ﻿using Blind75.Day1;
+using Blind75.Day2_ContainsDuplicate;
 
 namespace Blind75
 {
@@ -6,8 +7,8 @@ namespace Blind75
     {
         static void Main(string[] args)
         {
-            SlidingWindow slide = new();
-            Console.WriteLine(slide.maxProfit([2, 4, 1]));
+            Problem217ContainsDuplicate slide = new();
+            Console.WriteLine(slide.ContainsDuplicate([1, 2, 3, 1]));
         }
     }
 }
