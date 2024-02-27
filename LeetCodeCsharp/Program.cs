@@ -9,8 +9,18 @@ namespace LeetCodeCsharp;
 internal class Program
 {
     static void Main(string[] args)
-    { 
-        Problem1464MaxProduct list = new();
-        Console.WriteLine(String.Join(",", list.MaxProduct([3, 4, 5, 2])));
+    {
+        PriorityQueue<char,int> priority = new PriorityQueue<char,int>();
+        priority.Enqueue('c', 3);
+        priority.TryDequeue(out char x, out int p);
+        Console.WriteLine(x+" "+p);
+
+        Problem153FindMinInSortedRotatedArray temp = new ();
+        Console.WriteLine( temp.FindMin([11, 13, 15, 17]));
+
     }
+
+   
+
+   
 }
