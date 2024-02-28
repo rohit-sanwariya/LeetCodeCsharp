@@ -15,8 +15,8 @@ internal class Program
         priority.TryDequeue(out char x, out int p);
         Console.WriteLine(x+" "+p);
 
-        Problem153FindMinInSortedRotatedArray temp = new ();
-        Console.WriteLine( temp.FindMin([11, 13, 15, 17]));
+        Problem162FindPeakElement temp = new ();
+        Console.WriteLine( temp.FindPeakElement([11, 13, 15, 17]));
 
     }
 
