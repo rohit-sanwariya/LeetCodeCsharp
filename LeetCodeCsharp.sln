@@ -13,7 +13,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Recursion", "Recursion\Recu
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StringProblems", "StringProblems\StringProblems.csproj", "{CB99CF44-4041-43BE-BE06-08F70DE48B24}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Blind75", "Blind75\Blind75.csproj", "{69D11547-FF8B-4B6D-9F4E-B7504EC9C09F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Blind75", "Blind75\Blind75.csproj", "{69D11547-FF8B-4B6D-9F4E-B7504EC9C09F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GraphProblems", "GraphProblems\GraphProblems.csproj", "{032361E4-75D5-483C-8539-9058DA7CD21B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{69D11547-FF8B-4B6D-9F4E-B7504EC9C09F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{69D11547-FF8B-4B6D-9F4E-B7504EC9C09F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{69D11547-FF8B-4B6D-9F4E-B7504EC9C09F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{032361E4-75D5-483C-8539-9058DA7CD21B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{032361E4-75D5-483C-8539-9058DA7CD21B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{032361E4-75D5-483C-8539-9058DA7CD21B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{032361E4-75D5-483C-8539-9058DA7CD21B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
