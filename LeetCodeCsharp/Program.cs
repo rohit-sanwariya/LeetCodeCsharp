@@ -19,9 +19,10 @@ internal class Program
         priority.Enqueue('d', 2);
         priority.TryDequeue(out char x, out int p);
         Console.WriteLine(x+" "+p);
-        Problem35SearchInsertPosition temp = new ();
+        Problem75SortColors temp = new ();
+        temp.SortColors([2, 0, 2, 1, 1, 0]);
         DepthFirstTraversal temp1 = new ();
-        temp1.DepthFirstTraversalRecursive();
+        temp1.BreadthFirstTraversal();
         //Console.WriteLine( temp.SearchInsert([1, 3, 5, 6], 2));
         //myfun(out y, ref refe);
         //Console.WriteLine(y+" "+refe);

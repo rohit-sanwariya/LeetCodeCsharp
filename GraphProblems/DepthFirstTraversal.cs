@@ -1,9 +1,12 @@
-﻿namespace GraphProblems;
+﻿using System.Collections;
+
+namespace GraphProblems;
 
 public class DepthFirstTraversal
 {
     Dictionary<char, char[]> dict = new Dictionary<char, char[]>();
     Stack<char> stack = [];
+    Queue<char> queue = [];
     public void DepthFirstTraversalIterative()
     {
         
@@ -34,6 +37,20 @@ public class DepthFirstTraversal
         foreach(char n in neibhours)
         {
             DepthFirstTraversalRecursive(n);
+        }
+    }  
+    public void BreadthFirstTraversal(char source='a')
+    {
+        queue.Enqueue(source);
+       
+        while (queue.Count > 0)
+        {
+            char current = queue.Dequeue();
+            Console.WriteLine(current);
+            foreach (char n in dict[current])
+            {
+                queue.Enqueue(n);
+            }
         }
     }
 
