@@ -19,8 +19,8 @@ internal class Program
         priority.Enqueue('d', 2);
         priority.TryDequeue(out char x, out int p);
         Console.WriteLine(x+" "+p);
-        Problem42TrappingRainWater temp = new ();
-        Console.WriteLine(temp.Trap([0, 1, 0, 2, 1, 0, 1, 3, 2, 1, 2, 1]));
+        Problem2089FindTargetIndicesAfterSortingArray temp = new ();
+        Console.WriteLine(string.Join(",",temp.TargetIndices([1, 2, 5, 2, 3],2)));
         DepthFirstTraversal temp1 = new ();
         temp1.BreadthFirstTraversal();
         //Console.WriteLine( temp.SearchInsert([1, 3, 5, 6], 2));
