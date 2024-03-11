@@ -12,8 +12,8 @@ public class Program
 {
     static void Main(string[] args)
     {
-        Problem215KthLargestElement temp = new();
-        Console.WriteLine(temp.FindKthLargest([2, 3, 1, 4, 7], 3));
+        Problem791CustomSortString temp = new();
+        Console.WriteLine(temp.CustomSortString("kqep", "pekeq"));
         Console.WriteLine();
 
     }
