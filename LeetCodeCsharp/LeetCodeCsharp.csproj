@@ -12,6 +12,7 @@
     <ProjectReference Include="..\GraphProblems\GraphProblems.csproj" />
     <ProjectReference Include="..\Logical\Logical.csproj" />
     <ProjectReference Include="..\Recursion\Recursion.csproj" />
+    <ProjectReference Include="..\StackProblems\StackProblems.csproj" />
     <ProjectReference Include="..\StringProblems\StringProblems.csproj" />
   </ItemGroup>
 

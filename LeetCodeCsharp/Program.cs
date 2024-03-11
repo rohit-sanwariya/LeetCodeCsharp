@@ -5,6 +5,7 @@ using StringProblems;
 using Logical;
 using ArrayProblems;
 using GraphProblems;
+using StackProblems;
 namespace LeetCodeCsharp;
 
 
@@ -12,9 +13,9 @@ public class Program
 {
     static void Main(string[] args)
     {
-        Problem791CustomSortString temp = new();
-        Console.WriteLine(temp.CustomSortString("kqep", "pekeq"));
-        Console.WriteLine();
+        Problem155MinStack temp = new();
+        
+        
 
     }
 
