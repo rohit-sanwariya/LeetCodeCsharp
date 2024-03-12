@@ -13,7 +13,7 @@ public class Program
 {
     static void Main(string[] args)
     {
-        Problem155MinStack temp = new();
+        Problem225MinStackWithQueue temp = new();
         
         
 
