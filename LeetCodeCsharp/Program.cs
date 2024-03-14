@@ -6,6 +6,7 @@ using Logical;
 using ArrayProblems;
 using GraphProblems;
 using StackProblems;
+using QueueProblems;
 namespace LeetCodeCsharp;
 
 
@@ -13,7 +14,7 @@ public class Program
 {
     static void Main(string[] args)
     {
-        Problem225MinStackWithQueue temp = new();
+        Problem232QueueWithStack temp = new();
         
         
 
