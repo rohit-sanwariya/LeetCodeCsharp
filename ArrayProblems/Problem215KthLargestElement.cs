@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ArrayProblems;
 
-internal class ReversePriority : IComparer<int>
+public class ReversePriority : IComparer<int>
 {
     public int Compare(int x, int y)
     {

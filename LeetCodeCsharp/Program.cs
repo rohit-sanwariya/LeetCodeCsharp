@@ -14,9 +14,9 @@ public class Program
 {
     static void Main(string[] args)
     {
-        Problem232QueueWithStack temp = new();
-        
-        
+        Problem1046LastStoneWeight temp = new();
+        Console.WriteLine(temp.LastStoneWeight([1, 2, 3, 4, 5]));
+
 
     }
 
