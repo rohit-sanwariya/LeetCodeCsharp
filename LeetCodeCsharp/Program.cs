@@ -14,8 +14,8 @@ public class Program
 {
     static void Main(string[] args)
     {
-        Problem1046LastStoneWeight temp = new();
-        Console.WriteLine(temp.LastStoneWeight([1, 2, 3, 4, 5]));
+        Problem58LengthOfLastWord temp = new();
+        Console.WriteLine(temp.LengthOfLastWord("Hello world"));
 
 
     }

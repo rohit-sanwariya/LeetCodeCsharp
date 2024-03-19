@@ -4,7 +4,7 @@ namespace GraphProblems;
 
 public class DepthFirstTraversal
 {
-    Dictionary<char, char[]> dict = new Dictionary<char, char[]>();
+    Dictionary<char, char[]> graph = new Dictionary<char, char[]>();
     Stack<char> stack = [];
     Queue<char> queue = [];
     public void DepthFirstTraversalIterative()
@@ -16,7 +16,7 @@ public class DepthFirstTraversal
         {
             char curr = stack.Pop();
             Console.WriteLine(curr);
-            char[] neibhours = dict[curr];
+            char[] neibhours = graph[curr];
             foreach (char n in neibhours)
             {
                 stack.Push(n);
@@ -33,7 +33,7 @@ public class DepthFirstTraversal
     public void DepthFirstTraversalRecursive(char source='a')
     {
         Console.WriteLine(source);
-        char[] neibhours = dict[source];
+        char[] neibhours = graph[source];
         foreach(char n in neibhours)
         {
             DepthFirstTraversalRecursive(n);
@@ -47,7 +47,7 @@ public class DepthFirstTraversal
         {
             char current = queue.Dequeue();
             Console.WriteLine(current);
-            foreach (char n in dict[current])
+            foreach (char n in graph[current])
             {
                 queue.Enqueue(n);
             }
@@ -56,11 +56,11 @@ public class DepthFirstTraversal
 
     private void GenerateGraph()
     {
-        dict.Add('a', ['c', 'b']);
-        dict.Add('b', ['d']);
-        dict.Add('c', ['e']);
-        dict.Add('d', ['f']);
-        dict.Add('e', []);
-        dict.Add('f', []);
+        graph.Add('a', ['c', 'b']);
+        graph.Add('b', ['d']);
+        graph.Add('c', ['e']);
+        graph.Add('d', ['f']);
+        graph.Add('e', []);
+        graph.Add('f', []);
     }
 }
