@@ -14,8 +14,9 @@ public class Program
 {
     static void Main(string[] args)
     {
-        Problem58LengthOfLastWord temp = new();
-        Console.WriteLine(temp.LengthOfLastWord("Hello world"));
+        Problem442FindAllDuplicatesInAnArray temp = new();
+        Console.WriteLine(string.Join("", temp.FindDuplicates([1,1,2])));
+
 
 
     }
