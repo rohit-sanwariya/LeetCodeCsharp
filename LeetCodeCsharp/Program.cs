@@ -14,8 +14,8 @@ public class Program
 {
     static void Main(string[] args)
     {
-        Problem442FindAllDuplicatesInAnArray temp = new();
-        Console.WriteLine(string.Join("", temp.FindDuplicates([1,1,2])));
+        Problem1446ConsecutiveMaxChar temp = new();
+        Console.WriteLine(temp.MaxPower("leetcode"));
 
 
 
